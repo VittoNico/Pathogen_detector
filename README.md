@@ -1,4 +1,4 @@
-# Viral_detection
+# Pathogen detector
 This repository offers a comprehensive pipeline for assembling viral contigs from sequencing data. It combines several bioinformatics tools to perform quality checks, read trimming, removal of host genome sequences, contig assembly, and BLAST search against a custom database. Each script and command provided in this repository is tailored for high-throughput genomic analysis, ensuring accuracy and efficiency in processing large datasets.
 # Quality Check and Trimming 
 This step involves quality checking and trimming of raw reads using fastp, a versatile tool for fast and reliable preprocessing of sequencing data
