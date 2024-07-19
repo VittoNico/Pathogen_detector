@@ -31,7 +31,7 @@ blastdbcmd -db nt -entry_batch bacterial_accessions.txt -out bacteria.fasta
 makeblastdb -in bacteria.fasta -dbtype nucl -title bacteria
 ```
 
-#BLAST Search Against SPAdes Contigs
+# BLAST Search Against SPAdes Contigs
 
 The assembled contigs are then searched against the custom bacterial database using BLAST, to identify and characterize the viral sequences.
 ```
